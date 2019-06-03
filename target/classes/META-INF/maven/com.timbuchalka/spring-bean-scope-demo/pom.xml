@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.timbuchalka</groupId>
-  <artifactId>spring-di-setter-demo</artifactId>
+  <artifactId>spring-bean-scope-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>spring-di-setter-demo</name>
+  <name>spring-bean-scope-demo</name>
   <url>http://maven.apache.org</url>
 
   <properties>

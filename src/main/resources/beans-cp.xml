@@ -4,7 +4,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="myorg" class="nord.springdemo.domain.Organization">
+	<bean id="myorg" class="nord.springdemo.domain.Organization"
+		scope="singleton">
 		<constructor-arg value="Amazon" name="companyName"></constructor-arg>
 		<constructor-arg value="1994" name="yearOfIncorporation"></constructor-arg>
 		<property name="postalCode" value="75757"></property>
